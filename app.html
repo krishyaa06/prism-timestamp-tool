@@ -1,0 +1,25 @@
+    <section class="card now">
+      <div class="clock"><small>Current Unix time</small><b id="nowS"></b><span id="nowMs" class="mono muted"></span></div>
+      <div class="row"><button class="btn" id="useNow">Use now</button><button class="btn" id="copyNow">Copy</button><button class="btn ghost" id="pause">Pause</button></div>
+    </section>
+    <section class="grid ts">
+      <div class="card">
+        <div class="card-title"><h2>Convert</h2><span class="pill acc" id="kind"></span></div>
+        <input id="in" class="code big-in" spellcheck="false" aria-label="Timestamp or date" placeholder="1793000000, 2026-10-26T10:00:00Z, now, -3d…" />
+        <div class="row chips" id="chips"></div>
+        <p class="rel" id="rel"></p>
+        <table class="tbl fm" id="fm"></table>
+        <div class="row info" id="info"></div>
+      </div>
+      <div class="stack">
+        <div class="card">
+          <div class="card-title"><h2>World clock</h2></div>
+          <div id="zones" class="zones"></div>
+        </div>
+        <div class="card">
+          <div class="card-title"><h2>Difference</h2></div>
+          <div class="grid g2"><input id="d1" class="code" value="now" aria-label="From" /><input id="d2" class="code" value="2027-01-01T00:00:00+05:30" aria-label="To" /></div>
+          <div class="diff" id="diff"></div>
+        </div>
+      </div>
+    </section>

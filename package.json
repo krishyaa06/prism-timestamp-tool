@@ -1,0 +1,30 @@
+{
+  "name": "prism-timestamp-tool",
+  "version": "1.0.0",
+  "description": "Convert Unix timestamps and dates in every format, with relative time, world clock, date difference and Discord timestamp tags.",
+  "scripts": {
+    "test": "node --test",
+    "start": "npx --yes serve ."
+  },
+  "keywords": [
+    "unix-timestamp",
+    "epoch",
+    "timestamp-converter",
+    "datetime",
+    "timezone",
+    "discord",
+    "developer-tools",
+    "vanilla-js",
+    "prism-protocol"
+  ],
+  "author": "Soumya Bhandare (krishyaa06)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krishyaa06/prism-timestamp-tool.git"
+  },
+  "homepage": "https://krishyaa06.github.io/prism-timestamp-tool/",
+  "engines": {
+    "node": ">=18.17"
+  }
+}
